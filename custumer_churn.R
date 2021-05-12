@@ -32,7 +32,7 @@ dados_treino <- dados_treino %>%
   mutate(voice_mail_plan = ifelse(voice_mail_plan == "yes",1,0))
 
 dados_treino <- dados_treino %>%
-  mutate(churn = ifelse(churn == "yes",1,0))
+  mutate(churn = ifelse(churn == "yes",1,0)) 
 
 glimpse(dados_treino)
 
